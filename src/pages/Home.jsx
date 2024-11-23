@@ -15,6 +15,8 @@ const Home = () => {
     return (
         <div className="container">
             <h1 className="my-4">Examen de Recuperación</h1>
+            <h2 className="my-4">Reyna Elizabeth Vásquez Valenzuela</h2>
+            <h2 className="my-4">1790-21-340</h2>
             <div className="d-flex flex-wrap">
                 {countries.map(country => (
                     <CountryCard 
